@@ -1,0 +1,161 @@
+.imagem_receita{
+    width: 100%;
+    height: 275px;
+    display: flex;
+    
+    margin-top: 25px;
+}
+
+article{
+    width: 50%;
+    margin-left: 10px;
+    
+}
+aside{
+    display: flex;
+    
+    margin-right: 10px;
+}
+main{
+    display: flex;
+    gap: 10px;
+}
+
+.fundo_geral{
+    width: 100%;
+    height: 840px;
+    
+}
+
+
+
+
+
+.titulo_site{
+    text-align: center;
+    font-family: esquecidas;
+    background-image: url(antiguidade.jpg);
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid rgb(187, 132, 50);
+    
+}
+
+@font-face{
+    font-family: "esquecidas";
+    src: url("Special_Elite/SpecialElite-Regular.ttf");
+}
+
+.botao_navegacao{
+    font-family: esquecidas; 
+    font-size: 30px;
+    width: 100px;
+    background-color: rgb(150, 102, 30);
+    height: 15px;
+    border: 2px solid rgb(150, 102, 30);
+    border-radius: 15px;
+    -webkit-text-fill-color: white;
+    display:inline;
+    
+    
+}
+
+.nome_das_comidas{
+    display:flex;
+   
+    font-family: esquecidas;
+    width: 100%;
+}
+
+.texto_prato{
+    font-family: esquecidas;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+    text-align: justify;
+}
+
+.botao{
+    color: rgb(212, 183, 150);
+    -webkit-text-stroke: 2px black;
+    font-family: esquecidas;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(221, 181, 48);
+    width: 250px;
+    height: 75px;
+    border: rgb(187, 132, 50) 2px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 10px;
+    
+    
+}
+
+
+
+.tamanho_img{
+    width: 100%;
+    height: 840px;
+}
+
+.anotacoes_laterais{
+    font-family: esquecidas;
+    gap: 5px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.h3_topicos{
+    margin-left: 20px;
+    font-family: esquecidas;
+}
+.video_roda{
+
+}
+
+.contorno_rodape{
+    border: 3px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("antiguidade.jpg");
+    margin-top: 40px;
+}
+
+.divisoria_paragrafos{
+    border: 1.5px solid black;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: center;
+    height: 215px;
+    align-items: center;
+    display: flex;
+    background-image: url("old.jpg");
+    background-size: 100%;
+    color:rgb(0, 0, 0); 
+    
+}
+
+.divisoria_titulo_chef{
+    border: 1.5px solid black;
+    border-radius: 15px;
+    width: 100%;
+    justify-content: center;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    background-image: url("old.jpg");
+    background-size: 100%;
+    color:rgb(8, 8, 8); 
+    
+}
+
+.mouse_apontando{
+    cursor: pointer;
+}
